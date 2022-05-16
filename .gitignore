@@ -1,0 +1,10 @@
+.idea
+
+# 配置文件
+config/config.yaml
+
+# 缓存文件夹
+*cache/
+*png/
+
+/test

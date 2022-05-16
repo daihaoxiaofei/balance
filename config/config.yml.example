@@ -1,0 +1,36 @@
+Run:
+  CoinMarketKey:
+  Roi: 0.3
+
+Auth:
+  ApiKey:
+  SecretKey:
+
+Proxy:
+  Open: false
+  Path: socks5://192.168.3.85:10808
+
+# 不要将稳定币放到第一的位置
+Balance:
+  BaseCoin: USDT
+  CoinMsg:
+    - Name: BTC
+      Weight: 0.25
+    - Name: BNB
+      Weight: 0.25
+    - Name: USDT
+      Weight: 0.5
+
+
+Notify:
+  DD:
+    Open: 1
+    Url:
+    Secret:
+  Email:
+    Open:
+    HOST:
+    PORT:
+    From:
+    Pwd:
+    To:
